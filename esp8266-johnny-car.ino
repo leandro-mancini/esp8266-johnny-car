@@ -63,12 +63,12 @@ void loop()
   
     if (isEsquerda) {
       Serial.println("ESQUERDA");
-      MotorForward();
+      MotorBackward();
     }
   
     if (isDireita) {
       Serial.println("DIREITA");
-      MotorBackward();
+      MotorForward();
     }
   } else {
     MotorStop();
